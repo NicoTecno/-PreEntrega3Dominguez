@@ -94,6 +94,10 @@
   background-color: rgba(0, 89, 255, 0.322);
 }
 
+.card_diseño {
+  background-image: url("../imgs/fondos/diseño.avif");
+}
+
 .producto_pro_gamer {
   background-image: url("../imgs/marcos/marco_futurista_abajoavif.avif");
   background-size: contain;
@@ -118,6 +122,13 @@
 
 .fondo_pro_gamer {
   background-image: url("../imgs/fondo_filas_productos/fondo_futurista.gif");
+}
+
+.fondo_diseño {
+  background-image: url("../imgs/fondo_filas_productos/diseño.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .mapa_google {
