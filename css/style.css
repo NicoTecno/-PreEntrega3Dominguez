@@ -98,6 +98,12 @@
   background-image: url("../imgs/fondos/diseño.avif");
 }
 
+.card_ergonomico {
+  background-image: url("../imgs/fondos/ergonomico.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .producto_pro_gamer {
   background-image: url("../imgs/marcos/marco_futurista_abajoavif.avif");
   background-size: contain;
@@ -126,6 +132,14 @@
 
 .fondo_disenio {
   background-image: url("../imgs/fondo_filas_productos/diseño.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondo_ergonomico {
+  background-image: url("../imgs/fondo_filas_productos/ergonomico.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mapa_google {
@@ -250,6 +264,10 @@
 }
 .mapa {
   width: 10%;
+}
+
+.iconos_productos {
+  width: 5%;
 }
 
 .donde {
