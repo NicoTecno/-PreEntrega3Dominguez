@@ -13,17 +13,16 @@
   border-radius: 16px;
 }
 
-.card_1 {
-  box-shadow: 2px 2px 4px rgb(9, 235, 39);
-}
-
-.card_2 {
-  box-shadow: 2px 2px 4px rgb(179, 27, 27);
-}
-
 .pcs {
   width: 10rem;
   height: 10rem;
+}
+
+.teclado {
+  width: 15rem;
+  height: 10rem;
+  margin-left: 0rem;
+  margin-top: 0rem;
 }
 
 .conteiner_card {
@@ -86,7 +85,7 @@
   background-color: rgba(111, 0, 255, 0.322);
 }
 
-/* INICIAPRODUCTOS PRO GAMERS*/
+/* INICIA PRODUCTOS PRO GAMERS*/
 .card_pro_gamer {
   background-image: url("../imgs/fondos/fondo_futurista.jpg");
 }
@@ -104,11 +103,16 @@
   background-position: center;
 }
 
-.producto_pro_gamer {
+.producto_pro_gamer, .arreglo_puntual_pc_pro {
   background-image: url("../imgs/marcos/marco_futurista_abajoavif.avif");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/*PROBANDO EL EXTEND*/
+.arreglo_puntual_pc_pro {
+  background-position-y: 1rem;
 }
 
 .info_producto {
@@ -117,7 +121,7 @@
   position: relative;
 }
 
-/* Fondos Filas Pcs*/
+/* Fondos Filas*/
 .fondo_hogareño {
   background-image: url("../imgs/fondo_filas_productos/fondo_hogar.jpg");
 }
@@ -155,6 +159,7 @@
   height: 70px;
 }
 
+/*ESTO ES PARA DEMOSTRAR USO DE VARIABLES*/
 .redes_sociales {
   font-size: 3rem;
   color: rgb(100, 240, 100);
@@ -194,7 +199,7 @@
   background-color: rgb(63, 70, 75);
 }
 
-/*INETNANDO BORDES ANIMADOS*/
+/*BORDES ANIMADOS*/
 .tarjeta {
   top: 0;
   position: relative;
@@ -238,7 +243,7 @@
     background-position: 100% 0%;
   }
 }
-/*animacion marcas NUEVO*/
+/*animacion marcas*/
 .slider {
   width: 100%;
   height: auto;

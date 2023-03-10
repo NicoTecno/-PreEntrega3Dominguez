@@ -12,17 +12,16 @@
   border-radius: 16px;
 }
 
-.card_1 {
-  box-shadow: 2px 2px 4px rgb(9, 235, 39);
-}
-
-.card_2 {
-  box-shadow: 2px 2px 4px rgb(179, 27, 27);
-}
-
 .pcs {
   width: 10rem;
   height: 10rem;
+}
+
+.teclado {
+  width: 15rem;
+  height: 10rem;
+  margin-left: 0rem;
+  margin-top: 0rem;
 }
 
 .conteiner_card {
@@ -88,7 +87,7 @@
   }
 }
 
-/* INICIAPRODUCTOS PRO GAMERS*/
+/* INICIA PRODUCTOS PRO GAMERS*/
 
 .card_pro_gamer {
   background-image: url("../imgs/fondos/fondo_futurista.jpg");
@@ -116,13 +115,19 @@
   background-position: center;
 }
 
+/*PROBANDO EL EXTEND*/
+.arreglo_puntual_pc_pro {
+  @extend .producto_pro_gamer;
+  background-position-y: 1rem;
+}
+
 .info_producto {
   z-index: -2;
   color: rgba(255, 255, 255, 0);
   position: relative;
 }
 
-/* Fondos Filas Pcs*/
+/* Fondos Filas*/
 .fondo_hogareño {
   background-image: url("../imgs/fondo_filas_productos/fondo_hogar.jpg");
 }
@@ -136,19 +141,14 @@
 }
 
 .fondo_disenio {
-  // background-image: url("../imgs/fondo_filas_productos/diseño_2.jpg");
   background-image: url("../imgs/fondo_filas_productos/diseño.jpg");
   background-repeat: no-repeat;
-  // background-position: center;
-  // background-position-y: 40%;
   background-size: cover;
 }
 
 .fondo_ergonomico {
   background-image: url("../imgs/fondo_filas_productos/ergonomico.jpg");
   background-repeat: no-repeat;
-  // background-position: center;
-  // background-position-y: 40%;
   background-size: cover;
 }
 
@@ -165,9 +165,12 @@
   height: 70px;
 }
 
+/*ESTO ES PARA DEMOSTRAR USO DE VARIABLES*/
+$color_verde: rgb(100, 240, 100);
+
 .redes_sociales {
   font-size: 3rem;
-  color: rgb(100, 240, 100);
+  color: $color_verde;
   margin: 1rem;
 }
 
@@ -180,7 +183,7 @@
 }
 
 .input_estilo {
-  border-color: rgb(100, 240, 100);
+  border-color: $color_verde;
   border-radius: 1rem;
   border-width: 0.15rem;
 }
@@ -204,7 +207,7 @@
   background-color: rgb(63, 70, 75);
 }
 
-/*INETNANDO BORDES ANIMADOS*/
+/*BORDES ANIMADOS*/
 .tarjeta {
   top: 0;
   position: relative;
@@ -257,7 +260,7 @@
   }
 }
 
-/*animacion marcas NUEVO*/
+/*animacion marcas*/
 .slider {
   width: 100%;
   height: auto;
@@ -284,11 +287,9 @@
 
 .mapa {
   width: 10%;
-  // display: inline;
 }
 
 .iconos_productos {
-  // width: 5%;
   width: 3rem;
 }
 
