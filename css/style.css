@@ -18,11 +18,18 @@
   height: 10rem;
 }
 
-.teclado {
+.teclado, .teclado_ajustados {
   width: 15rem;
   height: 10rem;
-  margin-left: 0rem;
-  margin-top: 0rem;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.teclado_ajustados {
+  margin-top: 1rem;
 }
 
 .conteiner_card {
