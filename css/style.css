@@ -185,9 +185,6 @@
   background-color: black;
   border-radius: 8rem;
   padding: 2rem;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
 }
 
 @media (min-width: 992px) {
