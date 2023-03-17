@@ -1,0 +1,32 @@
+.marcas {
+  //   width: 10rem;
+  height: 5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  object-fit: contain;
+}
+/*animacion marcas*/
+.slider {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: 2800px;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  100% {
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+}
