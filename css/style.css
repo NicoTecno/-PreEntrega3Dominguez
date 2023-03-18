@@ -125,7 +125,6 @@
   background-size: cover;
 }
 
-/*ESTO ES PARA DEMOSTRAR USO DE VARIABLES*/
 .copyright {
   font-size: small;
 }
@@ -238,19 +237,20 @@
   display: flex;
   animation: scroll 40s linear infinite;
   -webkit-animation: scroll 40s linear infinite;
-  width: 2800px;
+  width: 1040px;
 }
 
 @keyframes scroll {
   0% {
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-100vw);
+    transform: translateX(-100vw);
   }
   100% {
-    -webkit-transform: translateX(50%);
-    transform: translateX(50%);
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
   }
 }
+/*FUNCIONA EN LA PANTALLA MAS GRANDE*/
 .mapa {
   width: 10%;
 }
